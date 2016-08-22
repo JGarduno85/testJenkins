@@ -513,7 +513,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = GihubJobs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.com.perfectlycooked.GihubJobs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.ironbit.unotv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bc3cd624-97b9-4d99-b648-539998d7623d";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -529,7 +529,7 @@
 				CURRENT_PROJECT_VERSION = 1.2.3;
 				INFOPLIST_FILE = GihubJobs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.com.perfectlycooked.GihubJobs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.ironbit.unotv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "bc3cd624-97b9-4d99-b648-539998d7623d";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -639,7 +639,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = GihubJobs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.com.perfectlycooked.GihubJobs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dex.ironbit.unotv;
 				PRODUCT_NAME = "$(TARGET_NAME) beta";
 				PROVISIONING_PROFILE = "bc3cd624-97b9-4d99-b648-539998d7623d";
 				VERSIONING_SYSTEM = "apple-generic";
