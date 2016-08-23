@@ -9,6 +9,9 @@ ARCHIVE_FILENAME="GihubJobs beta.app"
 IPA_FILENAME="GihubJobs.ipa"
 
 security unlock-keychain -p $PASSWORD $HOME/Library/Keychains/login.keychain
+
+/usr/bin/agvtool new-version -all ${BUILD_NUMBER:?"BUILD_NUMBER should be set, are you sure this script os run within a ci job?"}
+
 export LANG=en_US.UTF-8
 rm -fr Pods
 /usr/local/bin/pod install
