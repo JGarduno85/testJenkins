@@ -24,8 +24,8 @@
     NSURLSessionDataTask *jobTask = [[NSURLSession sharedSession] dataTaskWithURL:url completionHandler:^(NSData *data,NSURLResponse *response, NSError *error) {
                                          dispatch_async(dispatch_get_main_queue(), ^{
                                              if (error) {
-                                                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hola" message:@"mundo" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil];
-                                                    [alert show]; 
+                                                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hola" message:@"mundo" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil];   
+                                                    [alert show];
                                                                        return;
                                             }
                                                                        
