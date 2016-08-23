@@ -3,7 +3,7 @@
 WORKSPACE="GihubJobs.xcworkspace"
 SCHEME="GihubJobs"
 BUILD_COMPILE_DIR="$(pwd)/GihubJobs.xcworkspace"
-BUILD_DIR="$(pwd)/build"
+BUILD_DIR="$(pwd)"
 CONFIGURATION="AdHoc"
 
 ARCHIVE_FILENAME="GihubJobs.app"
