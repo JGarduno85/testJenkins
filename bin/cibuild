@@ -3,7 +3,7 @@
 WORKSPACE="GihubJobs.xcworkspace"
 SCHEME="GihubJobs"
 BUILD_COMPILE_DIR="$(pwd)/GihubJobs.xcworkspace"
-BUILD_DIR="~/Library/Developer/Xcode/DerivedData/GihubJobs-egbxueuocjfjvnantfaezzhmesfj/Build/Products/Release-iphoneos/"
+BUILD_DIR="~/Library/Developer/Xcode/DerivedData/GihubJobs-egbxueuocjfjvnantfaezzhmesfj/Build/Products/Release-iphoneos"
 CONFIGURATION="AdHoc"
 
 ARCHIVE_FILENAME="GihubJobs.app"
