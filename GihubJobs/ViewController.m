@@ -19,13 +19,13 @@
     [super viewDidLoad];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     // Do any additional setup after loading the view, typically from a nib.
-    NSURL *url = [NSURL URLWithString: 
+    NSURL *url = [NSURL URLWithString:
                   @"https://jobs.github.com/positions.json?description=ios&location=NY"];
     NSURLSessionDataTask *jobTask = [[NSURLSession sharedSession] dataTaskWithURL:url completionHandler:^(NSData *data,NSURLResponse *response, NSError *error) {
                                          dispatch_async(dispatch_get_main_queue(), ^{
                                              if (error) {
                                                  UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hola" message:@"mundo" delegate:nil cancelButtonTitle:@"ok" otherButtonTitles:nil];
-                                                    [alert show];
+                                                    [alert show]; 
                                                                        return;
                                             }
                                                                        
