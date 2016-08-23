@@ -19,4 +19,4 @@ rm -fr Pods
 
 xcodebuild -workspace "$BUILD_COMPILE_DIR" -scheme "$SCHEME" -configuration CONFIGURATON_BUILD_DIR="$BUILD_DIR" clean build | /usr/local/bin/xcpretty -c
 
-xcrun -sdk iphoneos PackageApplication "$BUILD_DIR/$ARCHIVE_FILENAME" -o "$BUILD_DIR/$IPA_FILENAME"
+xcrun -sdk iphoneos PackageApplication "$BUILD_DIR/$ARCHIVE_FILENAME" -o "$BUILD_DIR/$IPA_FILENAME" 
